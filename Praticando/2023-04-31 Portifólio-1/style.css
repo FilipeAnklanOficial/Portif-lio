@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa+One:ital@0;1&family=Krona+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(120deg, black, rgb(83, 83, 83), black);
+    background-size: 100vw 100vh;
+}
+
+/* --HEADER-- */
+
+header{
+    display: inline-block;
+    width: 100%;
+    height: 8em;
+}
+
+.caixa-header{
+    width: 100%;
+    height: 8em;
+    margin: auto;
+}
+
+.menu-superior{
+    position: relative;
+    top: 1.5em;
+}
+
+.lista-botoes{
+    display: flex;
+    justify-content:center;
+}
+
+.item-lista-botoes{
+    display: inline;
+}
+
+.botao-menu-superior{
+    display: block;
+    width: 230px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border: 3px solid rgb(40, 2, 192);
+    background: rgb(0, 242, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    font-family: 'Krona One', sans-serif;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.botao-menu-superior:hover{
+    background-color: rgb(40, 2, 192);
+    border: 3px solid rgb(0, 242, 255);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* --HEADER-- */
+
+/* --MAIN INDEX-- */
+
+    .apresentacao{
+        width: 940px;
+        margin: auto;
+        margin-top: 15em;
+        margin-bottom: 9em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .conteudo-pg-inicial{
+        color: white;
+    }
+
+    .texto-colorido {
+        background-image: repeating-linear-gradient(to left, blue, rgb(0, 110, 255), rgb(0, 174, 255), rgb(0, 255, 255), rgb(0, 174, 255),  rgb(0, 110, 255), blue);
+        background-size: 400% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: colorido 13s linear infinite;
+    }
+
+    @keyframes colorido {
+        from {
+          filter: hue-rotate(0deg);
+          background-position-x: 0%;
+          
+        }
+        to {
+          filter: hue-rotate(0deg);
+          background-position-x: 400%;
+          
+        }
+      }
+
+    .conteudo-pg-inicial{
+        margin: 0px 30px;
+    }
+
+    .conteudo-pg-inicial h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 900;
+        font-size: 100px;
+        margin: 30px;
+        text-align: center;
+        width: 550px;
+    }
+
+    .conteudo-pg-inicial h2{
+        font-family: 'krona One', sans-serif;
+        font-size: 40px;
+        color: aqua;
+        font-weight: bold;
+        margin: 30px;
+        text-align: center;
+        width: 550px;
+    }
+
+    .conteudo-pg-inicial p{
+        font-family: 'changa One', sans-serif;
+        font-size: 27px;
+        text-align: center;
+        width: 550px;
+        margin: 20px;
+    }
+
+    .conteudo-pg-inicial a {
+        text-decoration: none;
+        color: aqua;
+        font-size: 35px;
+    }
+
+    .conteudo-pg-inicial a:hover {
+        transform: scale(1.2);
+    }
+
+    .caixa-seta{
+        display: inline-block;
+        box-sizing: initial;
+        margin-left: 30px;
+    }
+
+    .link-seta{
+    }
+    
+    .imagem-seta {
+        box-sizing: border-box;
+        width: 300px;
+        transition: 1s;
+    }
+
+    .imagem-seta:hover{
+        transform: scale(1.2);
+        transition: 1s;
+    }
+/* --MAIN INDEX-- */
+
+/* --MAIN PROJETOS-- */
+
+
+
+/* --MAIN PROJETOS-- */
+
+/* --MAIN SOBRE MIM-- */
+
+
+
+/* --MAIN SOBRE MIM-- */
+
+/* --FOOTER-- */
+.caixa-rodape {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    width: 100%;
+    height: 4.45em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.assigned{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: 1.5em;
+    display: inline;
+    padding: 20px;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+.imagem-rodape{
+    width: auto;
+    height: 35%;
+    border-radius: 4px;
+    position: relative;
+    top: 1.5em;
+}
+/* --FOOTER-- */
